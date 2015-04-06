@@ -47,12 +47,3 @@ with open('hosts_lib.csv', 'rU') as csvfile:
             filename = 'result.log'
             with open(os.path.join(path, filename), 'wb') as result:
                 result.write("no match values for server "+row[0]+'\n')"""
-            
-"""            
---driver
-com.ibm.as400.access.AS400JDBCDriver
---table
-LIBR.TABLE
--m
-1
-"""
